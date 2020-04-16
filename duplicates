@@ -1,0 +1,2 @@
+select FIRST_NAME, count(*) duplicates from EMPLOYEES group by FIRST_NAME having count(*) > 1; -- duplicates for first_name
+select LAST_NAME, count(*) duplicates from EMPLOYEES group by LAST_NAME having count(*) > 1; -- -- duplicates for last_name
